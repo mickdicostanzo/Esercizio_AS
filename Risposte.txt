@@ -1,0 +1,8 @@
+1. How many topics are in the bag?
+	There are a total of 5 topics. 
+2. Determine the Hz of the topic image
+	It'something close to 29.27 Hz
+3. Determine the Hz of the topic system
+	It's something like 1.79 Hz
+4. Determine what does the topic system return.
+	The Topic system returns a Sysmon message. It stores information about system's state
