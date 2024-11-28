@@ -6,3 +6,11 @@
 	It's something like 1.79 Hz
 4. Determine what does the topic system return.
 	The Topic system returns a Sysmon message. It stores information about system's state
+5. Create a workspace in ROS2:
+	First of all I used the command: source /opt/ros/humble/setup.bash
+	Then I created the directory ros2_ws with: mkdir -p ros_ws
+	After that I created the package esercizio (so imaginative) with: ros2 pkg create --build-type ament_cmake --license Apache-2.0 esercizio
+	Then I made the build with: colcon build
+	After putting the interface and bag's file in the workspace i rebuild everything
+
+In order to answer the first 4 questions I used the command ros2 bag info. With this command I could get all the information about the topics
